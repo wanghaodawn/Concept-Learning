@@ -1,0 +1,9 @@
+1) How well did it do?
+I don’t think this is a good algorithm, for it can only judge the result of a instance that has appeared in the training data. It don’t know how to treat data that it has not seen. So I think this is quite a bad algorithm.
+
+Besides, it is not an efficient algorithm. For the algorithm has to check the whole version space for each new instance in test file. If the number of attributes are quite huge, then the algorithm can be extremely slow.
+
+But it still has some advantages. It can guarantee consistency if the new instance in test file is the same as one instance in the training data.
+
+2) What did you learn from it?
+I have learnt that it is really computationally expensive to enumerate all possible situations in the concept space. So we should try an algoritm to cut down many instances, instead of emulating all of them, especially when there are many attributes.
